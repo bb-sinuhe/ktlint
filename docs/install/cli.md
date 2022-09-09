@@ -12,7 +12,7 @@ All releases of `ktlint` can be downloaded from the [releases](https://github.co
 A particular version of `ktlint` can be downloaded with next command which also changes the file to an executable in directory `/usr/local/bin`:
 
 ```sh title="Download"
-curl -sSLO https://github.com/pinterest/ktlint/releases/download/0.47.0/ktlint && chmod a+x ktlint && sudo mv ktlint /usr/local/bin/
+curl -sSLO https://github.com/pinterest/ktlint/releases/download/0.47.1/ktlint && chmod a+x ktlint && sudo mv ktlint /usr/local/bin/
 ```
 
 !!! tip "Curl not installed or behind proxy"
@@ -38,7 +38,7 @@ curl -sS https://keybase.io/shyiko/pgp_keys.asc | gpg --import && gpg --verify k
 
 `ktlint` can be installed via several OS specific package managers.
 
-Install with [brew on maxOC](https://brew.sh/) or [Homebrew on Linux](https://docs.brew.sh/Homebrew-on-Linux)
+Install with [brew on macOS](https://brew.sh/) or [Homebrew on Linux](https://docs.brew.sh/Homebrew-on-Linux)
 ```sh
 brew install ktlint
 ```
